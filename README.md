@@ -20,6 +20,15 @@ conda activate stereo3d
 ```
 python run_vision_pipeline.py
 ```
+```
+Usage: run_vision_pipeline.py [OPTIONS]
+
+Options:
+  --data_path TEXT      Path to the data folder
+  --method TEXT         Method to calculate disparity: RAFT or SGBM
+  --apply_mask BOOLEAN  Apply segmentation mask to point cloud generation
+  --help                Show this message and exit.
+```
 
 ## Input Data Structure
 The input data should be organized as follows:

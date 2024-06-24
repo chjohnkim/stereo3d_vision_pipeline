@@ -15,7 +15,7 @@ from src import (
 @click.command()
 @click.option('--data_path', default='sample_data', help='Path to the data folder')
 @click.option('--method', default='RAFT', help='Method to calculate disparity: RAFT or SGBM')
-@click.option('--apply_mask', default=True, help='Apply segmentation mask to point cloud generation')
+@click.option('--apply_mask', default=False, help='Apply segmentation mask to point cloud generation')
 def main(data_path, method, apply_mask):
     frame_change = np.array([[ 0, 1, 0, 0],
                              [-1, 0, 0, 0],
