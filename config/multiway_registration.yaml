@@ -1,0 +1,13 @@
+preprocess:
+    voxel_size: 0.005
+    radius_outlier_filter:
+        nb_points: 100
+        radius: 0.05
+    estimate_normals:
+        radius: 0.02
+        max_nn: 50
+postprocess:
+    voxel_size: 0.001
+    radius_outlier_filter:
+        nb_points: 800
+        radius: 0.01
