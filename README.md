@@ -1,6 +1,9 @@
 # Stereo 3D Vision Pipeline
 
-This repository contains essential modules for 3D modeling, including rectification, computing disparity, instance segmentation, converting depth to point clouds, and point cloud registration.
+This repository contains essential modules for 3D modeling, including rectification, computing disparity, instance segmentation, converting depth to point clouds, and point cloud registration. The figure below illustrates the input and outputs of the vision pipeline along with the modules.  
+
+![Block Diagram](assets/block_diagram.png)
+
 
 ## Setup Conda Environment
 To set up the Conda environment, run the following command:
